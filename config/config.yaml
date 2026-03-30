@@ -1,0 +1,21 @@
+base_url: "https://www.saucedemo.com"
+
+users:
+  standard:
+    username: "standard_user"
+    password: "secret_sauce"
+  locked:
+    username: "locked_out_user"
+    password: "secret_sauce"
+  invalid:
+    username: "invalid_user"
+    password: "wrong_password"
+
+timeouts:
+  page_load: 30000
+  element: 10000
+
+browser:
+  headless: true
+  slow_mo: 0
+  
